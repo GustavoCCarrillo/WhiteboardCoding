@@ -1,0 +1,49 @@
+given an int array, find the biggest integer
+
+example:
+
+input = int[34,53,4,76,23,7,34,0,3] myIntArray
+output = 76
+
+
+walk-thru
+
+- validate input - If statement
+-if arry is null/empty, display error
+- else look thru int array - for loop
+- compare the first index value with all other indeces 
+- return the int value 
+
+
+
+
+int[34,53,4,76,23,7,34,0,3] input
+
+public static int GetBigestInt(int[] input)
+{
+   if(input == null)
+     {
+       Console.WriteLine("Please enter a value integer array");
+       GetBigestInt(in[] input);
+     }
+
+   esle
+     {
+      
+      for(int i = 0; i < input.Lenght(), i++)
+        {
+
+        for(int j = 1; j > input.Lenght(), j++
+            {
+             
+               if(input[i] < input[j])
+                 {
+                    input[i] == input[j];
+                    input[j] == input[i];
+                    return input[i];
+                 }
+             } 
+
+          }
+      }
+}
